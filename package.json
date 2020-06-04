@@ -1,0 +1,26 @@
+{
+  "name": "graphql-node",
+  "version": "1.0.0",
+  "description": "GraphQL node",
+  "scripts": {
+    "serve": "babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennethneary/graphql-node.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.14.1",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3",
+    "graphql-tools": "^6.0.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2"
+  }
+}
